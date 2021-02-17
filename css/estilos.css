@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to left, #00AAFF, #00FF6C);
 }
 
 .calculadora-grilla{
@@ -19,6 +19,18 @@ body{
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
+}
+.numero{
+    font-weight: 700;
+}
+.operaciones{
+    color: chocolate;
+}
+#limpiar{
+    color: red;
+}
+#igual{
+    color: blueviolet;
 }
 .calculadora-grilla > button:hover {
     background-color: rgba(255, 255, 255, .9);
@@ -40,4 +52,20 @@ body{
     color: black;
     font-size: 1.85rem;
     text-align: right;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-top: 0;
+}
+
+.footer .texto{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer .texto a{
+    text-decoration: none;
+    color: blue;
 }
